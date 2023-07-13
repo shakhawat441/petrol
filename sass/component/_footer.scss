@@ -1,0 +1,117 @@
+#footer {
+  background: #1f1f1f;
+  color: #fff;
+  padding: 0 0 150px 0;
+  .map_txt {
+    background: #f40404;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    height: 145px;
+    margin-bottom: 150px;
+    h2 {
+      font-family: "Poppins", sans-serif;
+      font-size: 36px;
+      font-weight: 700;
+      color: #fff;
+    }
+    a {
+      font-family: "Poppins", sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      padding: 13px 32px;
+      background: transparent;
+      border: 2px solid #fff;
+      color: #fff;
+    }
+  }
+  img {
+    margin-bottom: 34px;
+  }
+  a {
+    color: #ffffff;
+    margin-bottom: 15px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    &:nth-child(4) {
+      margin-bottom: 30px;
+    }
+    i {
+      margin-right: 6px;
+    }
+  }
+  .logo_div_icon {
+    display: flex;
+    gap: 12px;
+    i {
+      width: 29px;
+      height: 29px;
+      border-radius: 50%;
+      background: #f40404;
+      transition: all 0.4s;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &:hover {
+        cursor: pointer;
+        transform: rotate(360deg);
+      }
+    }
+  }
+  p {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+  }
+  ul {
+    padding-left: 62px;
+    li {
+      a {
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        color: #fff;
+      }
+    }
+  }
+  .ft_lst_text {
+    a {
+      width: 110px;
+      height: 44px;
+      &:first-child {
+        padding: 0px 6px;
+        border-radius: 4px;
+        background: #fff;
+        font-family: "Poppins", sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        color: #008ad8;
+        text-transform: uppercase;
+        margin-right: 5px;
+        span {
+          display: block;
+          font-family: "Poppins", sans-serif;
+          font-size: 8px;
+          font-weight: 500;
+          text-transform: capitalize;
+          margin-top: -5px;
+        }
+      }
+      &:last-child {
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        padding: 10px;
+        background-color: #fff;
+        border-radius: 4px;
+        color: #009818;
+        span {
+          color: #980077;
+        }
+      }
+    }
+  }
+}

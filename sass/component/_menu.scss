@@ -1,0 +1,48 @@
+@keyframes mnu_fixed{
+  from{
+    transform:translateY(-122%);
+  }
+  to{
+    transform:translateY(0);
+  }
+}
+.menu {
+  background: #f40404;
+  .logo {
+    margin-right: 275px;
+  }
+  ul {
+    gap: 47px;
+    li {
+      a {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        color: #fff;
+        transition: all 0.4s;
+        &:hover {
+          color: yellow;
+        }
+      }
+    }
+  }
+  .btn {
+    color: #fff;
+    padding: 14px 32px;
+    background-color: #f40404;
+    border: 2px solid #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+  }
+}
+.fixed{
+  position:sticky;
+  top:0;
+  left:0;
+  background: #f40404;
+  z-index: 999;
+  animation: mnu_fixed 1s;
+}
+
+
